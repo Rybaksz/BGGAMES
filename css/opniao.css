@@ -1,0 +1,155 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+ overflow-x: hidden;
+background-image: linear-gradient(45deg, #d2691e, black);
+  
+}
+
+.main-width{
+width: 1400px;
+max-width: 95%;
+margin: 0 auto;
+}
+.hero{
+height: 100%;
+width: 100%;
+min-height: 100vh;
+}
+.hero header .logo h2 a{
+ display: block;
+  font-size: 32px;
+  font-weight: 600;
+  text-decoration: black;
+  color: white;
+  z-index: 3;
+}
+
+.hero header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0 30px;
+}
+
+nav ul li{
+list-style: none;
+display: inline-block;
+  
+}
+nav ul li a {
+ text-decoration: black;
+  color: white;
+  margin-left: 60px;
+  font-size: 15px;
+  font-weight:  600;
+  
+  transition: .4s;
+}
+
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus{
+border-bottom: 2px solid white;
+  
+}
+
+nav ul li.active a{
+  border-bottom: 2px solid white; 
+}
+
+nav ul li.btn a{
+background: white;
+color: black;
+border: 1px solid black;
+padding: 9px 20px;
+border-radius: 30px;
+Line-height: 1.4;
+font-size: 14px;
+font-height: 500;
+margin-left: 150px;
+}
+
+nav ul li.btn:hover a {
+
+border: 1px solid white;
+color: black;
+  background: white;
+  transition: .4s;
+  
+}
+
+.tetelo2{
+   Position: absolute;
+  bottom: 50%;  
+  right: 6%;
+  text-align: right;
+
+  
+}
+
+.tetelo4{
+   Position: absolute;
+  bottom: 30%;  
+  right: 8%;
+  text-align: right;
+
+  
+}
+.tetelo5{
+   Position: absolute;
+  bottom: 70%;  
+  right: 25%;
+  text-align: right;
+
+  
+}
+.tetelo6{
+   Position: absolute;
+  bottom: 80%;  
+  right: 70%;
+  text-align: right;
+
+  
+}
+.tetelo7{
+   Position: absolute;
+  bottom: 55%;  
+  right: 75%;
+  text-align: right;
+
+  
+}
+.tetelo8{
+   Position: absolute;
+  bottom: 32%;  
+  right: 75%;
+  text-align: right;
+}
+.tetelo9{
+   Position: absolute;
+  bottom: 80%;  
+  right: 1%;
+  text-align: right;
+}
+.tetelo10{
+   Position: absolute;
+  bottom: 80%;  
+  right: 79%;
+  text-align: right;
+}
+.tetelo11{
+   Position: absolute;
+  bottom: 60%;  
+  right: 55%;
+  text-align: right;
+}
+.tetelo12{
+   Position: absolute;
+  bottom: 56%;  
+  right: -10%;
+  text-align: right;
+}

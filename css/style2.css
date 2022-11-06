@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+
+}
+body{
+ overflow-x: hidden;
+background-color: rgba(0, 0, 0, .5);
+overflow-y: hidden;
+}
+
+.main-width{
+width: 1400px;
+max-width: 95%;
+margin: 0 auto;
+}
+.hero{
+height: 100%;
+width: 100%;
+
+}
+.hero header .logo h2 a{
+ display: block;
+  font-size: 40px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  z-index: 3;
+  align-items: left;
+  margin-left: 1px;
+}
+
+.hero header{
+  top: 0;
+  z-index: 2;
+  position: fixed;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  padding: 40px 0 30px;
+  
+
+}
+
+nav ul li{
+list-style: none;
+display: inline-block;
+  
+}
+nav ul li a {
+ text-decoration: none;
+  color: white;
+  margin-left: 60px;
+  font-size: 20px;
+  font-weight:  600;
+  border-bottom: 2px solid transparent;
+  transition: .4s;
+}
+
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus{
+border-bottom: 2px solid white;
+  
+}
+
+nav ul li.active a{
+  border-bottom: 2px solid white; 
+}
+
+nav ul li.btn a{
+background: transparent;
+color: white;
+border: 1px solid white;
+padding: 9px 20px;
+border-radius: 30px;
+Line-height: 1.4;
+font-size: 25px;
+font-height: 500;
+margin-left: 150px;
+}
+
+nav ul li.btn:hover a {
+
+border: 1px solid white;
+color: black;
+  background: white;
+  transition: .4s;
+  
+

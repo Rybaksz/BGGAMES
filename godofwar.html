@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Site do bagui que esqueci o nome</title>
+  <link href="css/style2.css" rel="stylesheet" type="text/css" />
+  <link href="css/carrinho.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="hero">
+    <div class="main-width">
+      <header>
+        <Div class="logo">
+          <h2><a href="#">BG GAMES</a></h2>
+        </Div>
+        <nav>
+          <ul>
+            <li class="index.html"><a href="Jubileu">Pre Venda</a></li>
+            <li><a href="loja.html">Loja</a></li>
+            <li><a href="opniao.html">Opnioes de Compradores </a></li>
+            <li><a href="Jubileu3">Sobre nos</a></li>
+            <li class="btn"><a href="#">Minha Conta</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+  </section>
+  <div class="hero">
+    <div class="row">
+      <div class="col">
+
+        <div class="slider">
+          <div class="product">
+              
+            <img src="img/god1.jpg" alt="" onclick="clickme(this)" width="300px" height="200px">
+            <img src="img/god2.jpg" alt="" onclick="clickme(this)" width="300px" height="200px">
+            <img src="img/god3.jpg" alt="" onclick="clickme(this)" width="300px" height="200px">
+            
+
+
+          </div>
+          <div class="preview">
+            <img src="img/godof (1).png" id="imagebox" alt="" width="800px" height="200px">
+          
+             <br><p class="texto">Kratos e Atreus devem viajar pelos Nove Reinos em busca de respostas enquanto os gardianos se preparam para uma batalha profetizada que causara o fim do mundo. Nessa jornada, eles explorarao paisagens miticas impressionantes e enfrentarao inimigos aterradores: deuses nordicos e monstros.  </p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col">
+
+        <div class="content">
+          <h2>God of War Ragnarok</h2>
+          <p class="price">R$ 349,90</p>
+          <p class="texto2">Plataforma: <select name="size">
+
+              <option value="vazio"></option>
+              <option value="Steam">Steam</option>
+              <option value="Xbox">Xbox</option>
+              <option value="Playstation">Playstation</option>
+
+            </select></p>
+          <p  class="texto2">Quantidade: <input type="text" value="1"></p>
+          <button type="button">
+            <i class="fa fa-shopping-cart"></i>
+           Adcionar ao carrinho</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <script>
+    function clickme(smallImg) {
+
+      var fullImg = document.getElementById("imagebox");
+      fullImg.src = smallImg.src;
+
+    }
+
+  </script>
+
+</body>
+
+</html>
