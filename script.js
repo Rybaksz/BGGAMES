@@ -2,7 +2,7 @@ $(document).ready(function(){
   var price = $(".price").text().trim();
   var quantity = $("#quantity").val();
   console.log(quantity);
-  //add listener to plus button
+
   $("#plus").click(function(e){
     e.preventDefault();
     quantity++;
@@ -17,6 +17,5 @@ $(document).ready(function(){
       $(".price").text(quantity*price);
     }
   });
-  //set total price
   
-});
+
